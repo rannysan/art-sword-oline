@@ -382,6 +382,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1251994230}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1599834623 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 499410ead04389e469d98a79ce314e86,
+    type: 3}
+  m_PrefabInstance: {fileID: 1251994230}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1599834625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,6 +419,7 @@ MonoBehaviour:
   gravity: 30
   moveDir: {x: 0, y: 0, z: 0}
   control: {fileID: 1599834627}
+  anim: {fileID: 1599834623}
 --- !u!143 &1599834627
 CharacterController:
   m_ObjectHideFlags: 0
